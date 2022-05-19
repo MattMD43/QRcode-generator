@@ -1,0 +1,118 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html *, html *:before, html *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1 .bu {
+  color: rgba(0, 0, 255, 0.749);
+}
+
+main {
+  background: linear-gradient(52deg, transparent, rgba(77, 77, 255, 0.749) 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+}
+
+main input {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(77, 77, 255, 0.749);
+  text-shadow: 1px 1px 1px rgba(77, 77, 255, 0.749);
+}
+
+main input::-webkit-input-placeholder {
+  color: rgba(0, 0, 255, 0.749);
+  font-style: italic;
+  opacity: .5;
+  text-shadow: none;
+}
+
+main input:-ms-input-placeholder {
+  color: rgba(0, 0, 255, 0.749);
+  font-style: italic;
+  opacity: .5;
+  text-shadow: none;
+}
+
+main input::-ms-input-placeholder {
+  color: rgba(0, 0, 255, 0.749);
+  font-style: italic;
+  opacity: .5;
+  text-shadow: none;
+}
+
+main input::placeholder {
+  color: rgba(0, 0, 255, 0.749);
+  font-style: italic;
+  opacity: .5;
+  text-shadow: none;
+}
+
+main label {
+  font-style: italic;
+  color: #333333;
+  font-size: .9em;
+  margin-top: .4em;
+  margin-bottom: .8em;
+}
+
+main .board {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .board #qrcode {
+  padding: 0.625em;
+  border-radius: 0 1em 0 1em;
+}
+
+main .frm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: .4em;
+  text-align: center;
+}
+
+main .frm p {
+  color: #333333;
+  margin-top: .4em;
+  font-style: italic;
+  white-space: pre-line;
+  margin-bottom: 1em;
+}
+
+main .frm p b {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

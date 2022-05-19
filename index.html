@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SquareQRGen</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <h1>Write your own <span class="bu">QR</span></h1>
+            <input type="text" placeholder="Insert text for your QR" id="qr_data" onchange="generatorio()" autofocus>
+            <label for="qr_data">Press ENTER to generate</label>
+            <section class="board">
+                <div id="qrcode"></div>
+            </section>
+            <footer class="frm">
+                <p>This QR code says: <b class="generated"></b></p>
+            </footer>
+        </main>
+
+    <script src="./qrcode.min.js"></script>
+    <script src="./script.js"></script>
+    </body>
+</html>
